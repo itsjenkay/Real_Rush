@@ -4,17 +4,23 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour {
-    [SerializeField] List<Blocks> path;
+    [SerializeField] List<WayPoint> path;
 	void Start()
     {
+        StartCoroutine(PrintAllWayPoints());
         PrintAllWayPoints();
     }
 
-    private void PrintAllWayPoints()
+    IEnumerator PrintAllWayPoints()
     {
-        foreach (Blocks waypoint in path)
+        print("Staring Parols");
+        foreach (WayPoint waypoint in path)
         {
-            print(waypoint.name);
+            transform.position = waypoint.transform.position;
+
+            print("Visiting "+ waypoint.name);
+            yield return new WaitForSeconds(1f);
         }
+        print("Parols Ended");
     }
 }

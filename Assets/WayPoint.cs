@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Blocks : MonoBehaviour {
+public class WayPoint : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
