@@ -4,21 +4,31 @@ using UnityEngine;
 
 [ExecuteInEditMode]
 [SelectionBase]
+[RequireComponent(typeof(WayPoint))]
+
 public class CubeEditor : MonoBehaviour {
-    [SerializeField] [Range(1f, 20f)] float gridSize = 10f;
-    TextMesh textMesh;
-        
+    WayPoint wayPoint;
+  
+    void Awake()
+    {
+        wayPoint = GetComponent<WayPoint>();
+    }
     void Update()
     {
-        Vector3 snapPos;
-        snapPos.x =Mathf.RoundToInt(transform.position.x / gridSize) * gridSize;
-        snapPos.z = Mathf.RoundToInt(transform.position.z / gridSize) * gridSize;
-        transform.position = new Vector3(snapPos.x, 0f, snapPos.z);
-
-        textMesh = GetComponentInChildren<TextMesh>();
-        string labelText = snapPos.x / gridSize + "," + snapPos.z / gridSize;
+        SanpToGrid();
+        UpdateLabel();
+    }
+    private void SanpToGrid()
+    {
+        int gridSize = wayPoint.GetGridSize();
+        transform.position = new Vector3(wayPoint.GetGridPos().x, 0f, wayPoint.GetGridPos().y);
+    }
+    private void UpdateLabel()
+    {
+        TextMesh textMesh= GetComponentInChildren<TextMesh>();
+        int gridSize = wayPoint.GetGridSize();
+        string labelText = wayPoint.GetGridPos().x / gridSize + "," + wayPoint.GetGridPos().y/ gridSize;
         textMesh.text = labelText;
-        gameObject.name ="cube" + labelText;
-
+        gameObject.name = "cube" + labelText;
     }
 }

@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour {
-    [SerializeField] List<WayPoint> path;
+  [SerializeField] List<WayPoint> path;
 	void Start()
     {
-        StartCoroutine(PrintAllWayPoints());
-        PrintAllWayPoints();
+        //StartCoroutine(PrintAllWayPoints());
+        //PrintAllWayPoints();
     }
 
     IEnumerator PrintAllWayPoints()
@@ -17,10 +17,11 @@ public class EnemyMovement : MonoBehaviour {
         foreach (WayPoint waypoint in path)
         {
             transform.position = waypoint.transform.position;
-
             print("Visiting "+ waypoint.name);
             yield return new WaitForSeconds(1f);
         }
         print("Parols Ended");
     }
+    
+    
 }
