@@ -1692,6 +1692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1805bf03f9fdc8b40b462e82b5a05cde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitPoints: 10
   collisionMesh: {fileID: 2138425713}
 --- !u!54 &250079248
 Rigidbody:
