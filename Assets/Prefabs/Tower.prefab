@@ -98,15 +98,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1173431516009890}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.953234, y: 1.01, z: -29.72}
+  m_LocalRotation: {x: -0, y: 0.6132602, z: -0, w: 0.789881}
+  m_LocalPosition: {x: -51.14572, y: 0.84000015, z: -28.992352}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4936373856960464}
   - {fileID: 4201791491452722}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -119.578, z: 0}
 --- !u!4 &4689796249195534
 Transform:
   m_ObjectHideFlags: 1
@@ -228,6 +228,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToPan: {fileID: 4201791491452722}
   targetEnemy: {fileID: 0}
+  attackRange: 30
+  projectileParticle: {fileID: 198301686137561318}
 --- !u!198 &198301686137561318
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -2782,11 +2784,11 @@ ParticleSystem:
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
-    enabled: 1
+    enabled: 0
     collisionShape0: {fileID: 0}
     collisionShape1: {fileID: 0}
     collisionShape2: {fileID: 0}
