@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class WayPoint : MonoBehaviour {
+    [SerializeField] Tower towerPrefab;
     public bool isExplored = false;
     public WayPoint ExploredFrom;
+    public bool isPlacable = true;
+
     const int gridSize = 10;
     Vector2Int gridPos;
-    public bool isPlacable = true;
 
     public int GetGridSize()
     {
@@ -29,6 +31,7 @@ public class WayPoint : MonoBehaviour {
             if (isPlacable)
             {
                 print(gameObject.name + " Tower placement");
+                Instantiate(towerPrefab, transform.position, Quaternion.identity);
 
             }
 
@@ -36,6 +39,7 @@ public class WayPoint : MonoBehaviour {
         else
         {
             print("Cant place block here");
+            return;
         }
     }
     public void SetTopColor(Color color)
