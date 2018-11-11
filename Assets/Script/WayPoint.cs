@@ -7,6 +7,8 @@ public class WayPoint : MonoBehaviour {
     public WayPoint ExploredFrom;
     const int gridSize = 10;
     Vector2Int gridPos;
+    public bool isPlacable = true;
+
     public int GetGridSize()
     {
         return gridSize;
@@ -22,7 +24,19 @@ public class WayPoint : MonoBehaviour {
     }
    public  void OnMouseOver()
     {
-        print("hello");
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (isPlacable)
+            {
+                print(gameObject.name + " Tower placement");
+
+            }
+
+        }
+        else
+        {
+            print("Cant place block here");
+        }
     }
     public void SetTopColor(Color color)
     {

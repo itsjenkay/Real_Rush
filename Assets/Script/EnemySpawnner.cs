@@ -18,7 +18,7 @@ public class EnemySpawnner : MonoBehaviour {
         {
             Instantiate(enemyPrefab, transform.position, Quaternion.identity);
             yield return new WaitForSeconds(secondsBetweenSpawans);
-            print("spawining");
+         //   print("spawining");
 
 
         }
