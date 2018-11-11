@@ -20,6 +20,10 @@ public class WayPoint : MonoBehaviour {
             );
 
     }
+   public  void OnMouseOver()
+    {
+        print("hello");
+    }
     public void SetTopColor(Color color)
     {
         MeshRenderer topColor=  transform.Find("top").GetComponent<MeshRenderer>();
