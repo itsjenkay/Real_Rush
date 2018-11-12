@@ -321,7 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114989430038239238, guid: a29fab20ff5991c4d9482967bf79e1ba,
+  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
     type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}

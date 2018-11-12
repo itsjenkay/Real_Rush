@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour {
-  [SerializeField] List<WayPoint> path;
+  
 	void Start()
     {
         // A string function naming the active coroutine
 
         Pathfinder pathfinder = FindObjectOfType<Pathfinder>();
-        var path = pathfinder.GetPath();
+        var  path = pathfinder.GetPath();
         StartCoroutine(PrintAllWayPoints(path));
         //PrintAllWayPoints();
 

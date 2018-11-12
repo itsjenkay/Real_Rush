@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WayPoint : MonoBehaviour {
     [SerializeField] Tower towerPrefab;
+
     public bool isExplored = false;
     public WayPoint ExploredFrom;
     public bool isPlacable = true;
@@ -30,23 +31,21 @@ public class WayPoint : MonoBehaviour {
         {
             if (isPlacable)
             {
-                print(gameObject.name + " Tower placement");
                 Instantiate(towerPrefab, transform.position, Quaternion.identity);
-
+                isPlacable = false;
             }
 
         }
         else
         {
-            print("Cant place block here");
-            return;
+               return;
         }
     }
-    public void SetTopColor(Color color)
-    {
-        MeshRenderer topColor=  transform.Find("top").GetComponent<MeshRenderer>();
-        topColor.material.color = color;
-    }
+    //public void SetTopColor(Color color)
+    //{
+    //    MeshRenderer topColor=  transform.Find("top").GetComponent<MeshRenderer>();
+    //    topColor.material.color = color;
+    //}
 
     
     
