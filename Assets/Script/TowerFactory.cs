@@ -5,32 +5,32 @@ using UnityEngine;
 public class TowerFactory : MonoBehaviour {
     [SerializeField] int towerLimit = 5;
     [SerializeField] Tower towerPrefab;
-
+    Queue<Tower> towerqueue = new Queue<Tower>();
     //int numTowers = 0;
 
     public void AddTower(WayPoint basewaypoint)
     {
-        var towers = FindObjectsOfType<Tower>();
-        var numTowers = towers.Length;
+        int numTowers = towerqueue.Count;
         if (numTowers<towerLimit)
         {
             InstantiateNewTower(basewaypoint);
         }
         else
         {
-            MoveExistingTowers();
+            MoveExistingTowers(basewaypoint);
         }
-    }
-
-    private static void MoveExistingTowers()
-    {
-        Debug.Log("Move existing towers");
     }
 
     private void InstantiateNewTower(WayPoint basewaypoint)
     {
-        Instantiate(towerPrefab, basewaypoint.transform.position, Quaternion.identity);
+       var newTowers =  Instantiate(towerPrefab, basewaypoint.transform.position, Quaternion.identity);
         basewaypoint.isPlacable = false;
-      //  numTowers++;
+        towerqueue.Enqueue(newTowers);
+        //  numTowers++;
     }
+    private  void MoveExistingTowers(WayPoint basewaypoint)
+    {
+        var oldTowers = towerqueue.Dequeue();
+    }
+
 }

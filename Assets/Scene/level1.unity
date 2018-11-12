@@ -160,8 +160,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -243,44 +241,40 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1716353737}
     m_Modifications:
-    - target: {fileID: 4292206563140262, guid: 8d18e303f31729e439f40c71db3115a4, type: 2}
+    - target: {fileID: 4039931600978800, guid: 80e6048b1a2ea8440a29c542baace4b0, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4292206563140262, guid: 8d18e303f31729e439f40c71db3115a4, type: 2}
+    - target: {fileID: 4039931600978800, guid: 80e6048b1a2ea8440a29c542baace4b0, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4292206563140262, guid: 8d18e303f31729e439f40c71db3115a4, type: 2}
+    - target: {fileID: 4039931600978800, guid: 80e6048b1a2ea8440a29c542baace4b0, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4292206563140262, guid: 8d18e303f31729e439f40c71db3115a4, type: 2}
+    - target: {fileID: 4039931600978800, guid: 80e6048b1a2ea8440a29c542baace4b0, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4292206563140262, guid: 8d18e303f31729e439f40c71db3115a4, type: 2}
+    - target: {fileID: 4039931600978800, guid: 80e6048b1a2ea8440a29c542baace4b0, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4292206563140262, guid: 8d18e303f31729e439f40c71db3115a4, type: 2}
+    - target: {fileID: 4039931600978800, guid: 80e6048b1a2ea8440a29c542baace4b0, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4292206563140262, guid: 8d18e303f31729e439f40c71db3115a4, type: 2}
+    - target: {fileID: 4039931600978800, guid: 80e6048b1a2ea8440a29c542baace4b0, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4292206563140262, guid: 8d18e303f31729e439f40c71db3115a4, type: 2}
+    - target: {fileID: 4039931600978800, guid: 80e6048b1a2ea8440a29c542baace4b0, type: 2}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1782814365602952, guid: 8d18e303f31729e439f40c71db3115a4, type: 2}
-      propertyPath: m_Name
-      value: 'Enemy '
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 8d18e303f31729e439f40c71db3115a4, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 80e6048b1a2ea8440a29c542baace4b0, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &17166622
 GameObject:
@@ -648,8 +642,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -907,8 +899,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -983,8 +973,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -1056,8 +1044,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -1162,48 +1148,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1001 &145018108
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1688152663}
-    m_Modifications:
-    - target: {fileID: 4208721479801298, guid: dcf9cd10c07cf0c49863969befadb243, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4208721479801298, guid: dcf9cd10c07cf0c49863969befadb243, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 9.31
-      objectReference: {fileID: 0}
-    - target: {fileID: 4208721479801298, guid: dcf9cd10c07cf0c49863969befadb243, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4208721479801298, guid: dcf9cd10c07cf0c49863969befadb243, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4208721479801298, guid: dcf9cd10c07cf0c49863969befadb243, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4208721479801298, guid: dcf9cd10c07cf0c49863969befadb243, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4208721479801298, guid: dcf9cd10c07cf0c49863969befadb243, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4208721479801298, guid: dcf9cd10c07cf0c49863969befadb243, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: dcf9cd10c07cf0c49863969befadb243, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1001 &145819169
 Prefab:
   m_ObjectHideFlags: 0
@@ -1860,8 +1804,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114989430038239238, guid: a29fab20ff5991c4d9482967bf79e1ba,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -2026,8 +1968,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -2308,8 +2248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -2442,8 +2380,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -2518,8 +2454,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -2845,8 +2779,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -3057,8 +2989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -4149,6 +4079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 767623237}
   - component: {fileID: 767623238}
+  - component: {fileID: 767623239}
   m_Layer: 0
   m_Name: World
   m_TagString: Untagged
@@ -4205,6 +4136,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartWayPoint: {fileID: 1094661961}
   EndwayPoint: {fileID: 69712708}
+--- !u!114 &767623239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 767623236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 153a588908dff334d9cbd173e742f13b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerLimit: 5
+  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
+    type: 2}
 --- !u!1 &768177005
 GameObject:
   m_ObjectHideFlags: 0
@@ -4338,8 +4283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -5001,8 +4944,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -5628,8 +5569,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -5840,8 +5779,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -5986,8 +5923,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -6216,8 +6151,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -7058,8 +6991,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -7211,8 +7142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -7275,8 +7204,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -7958,8 +7885,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -8022,8 +7947,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -8098,8 +8021,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -8171,8 +8092,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -8282,8 +8201,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -8361,7 +8278,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 49
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -8385,13 +8302,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1544487493}
-  m_LocalRotation: {x: -0.39066517, y: 0.050776362, z: -0.021587774, w: -0.9188779}
-  m_LocalPosition: {x: 31.424322, y: 39.857105, z: -36.865902}
+  m_LocalRotation: {x: 0.36121798, y: 0.002971281, z: -0.00052849576, w: 0.9324765}
+  m_LocalPosition: {x: 29.6, y: 41.49, z: -51.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 36.7, y: -0, z: -0.97}
+  m_LocalEulerAnglesHint: {x: 42.35, y: 0.4, z: 0.09}
 --- !u!1 &1547336736
 GameObject:
   m_ObjectHideFlags: 0
@@ -8620,8 +8537,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -9095,8 +9010,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -9168,7 +9081,7 @@ Prefab:
   m_IsPrefabParent: 0
 --- !u!4 &1688152663 stripped
 Transform:
-  m_PrefabParentObject: {fileID: 4292206563140262, guid: 8d18e303f31729e439f40c71db3115a4,
+  m_PrefabParentObject: {fileID: 4039931600978800, guid: 80e6048b1a2ea8440a29c542baace4b0,
     type: 2}
   m_PrefabInternal: {fileID: 16938762}
 --- !u!4 &1715981535 stripped
@@ -9203,7 +9116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4cefa3b9103d4144bf8cef8a767ada0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsBetweenSpawans: 4
+  secondsBetweenSpawans: 3
   enemyPrefab: {fileID: 114946720869050946, guid: 80e6048b1a2ea8440a29c542baace4b0,
     type: 2}
 --- !u!4 &1716353737
@@ -9411,8 +9324,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -10339,8 +10250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
@@ -11102,8 +11011,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1270b5a161acd9f47b14bc45638d1812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 114176565983627700, guid: 3de242a0ea54e09418446517366ed2ac,
-    type: 2}
   isExplored: 0
   ExploredFrom: {fileID: 0}
   isPlacable: 1
