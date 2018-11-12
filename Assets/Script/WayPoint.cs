@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class WayPoint : MonoBehaviour {
-    [SerializeField] Tower towerPrefab;
+    
 
     public bool isExplored = false;
     public WayPoint ExploredFrom;
@@ -31,8 +31,8 @@ public class WayPoint : MonoBehaviour {
         {
             if (isPlacable)
             {
-                Instantiate(towerPrefab, transform.position, Quaternion.identity);
-                isPlacable = false;
+                FindObjectOfType<TowerFactory>().AddTower(this);
+
             }
 
         }
