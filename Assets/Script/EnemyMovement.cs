@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour {
-  
+    [SerializeField] float movementPeriod = 0.5f;
+    [SerializeField] ParticleSystem destroyFriendly;
 	void Start()
     {
         // A string function naming the active coroutine
@@ -26,8 +27,17 @@ public class EnemyMovement : MonoBehaviour {
         {
             transform.position = waypoint.transform.position;
           //  print("visiting " + waypoint.name);
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(movementPeriod);
         }
-       // print("parols ended");
+
+        destroyFriendlyBase();
+    }
+
+    private void destroyFriendlyBase()
+    {
+        var vfx = Instantiate(destroyFriendly, transform.position, Quaternion.identity);
+        Destroy(vfx.gameObject, vfx.main.duration);
+        vfx.Play();
+        Destroy(gameObject);
     }
 }
