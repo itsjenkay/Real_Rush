@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemySpawnner : MonoBehaviour {
-  [Range(0.1f,120f)]  [SerializeField] float secondsBetweenSpawans = 2f;
+    [Range(0.1f,120f)]  [SerializeField] float secondsBetweenSpawans = 2f;
     [SerializeField] EnemyMovement enemyPrefab;
-    
-	// Use this for initialization
-	void Start () {
+    [SerializeField] Transform enemyParentTransform;
+
+    // Use this for initialization
+    void Start () {
         
         StartCoroutine(EnemySpawing());
     }
@@ -16,7 +17,8 @@ public class EnemySpawnner : MonoBehaviour {
     {
         while (true)
         {
-            Instantiate(enemyPrefab, transform.position, Quaternion.identity);
+            var newEnemy=  Instantiate(enemyPrefab, transform.position, Quaternion.identity);
+            newEnemy.transform.parent = enemyParentTransform;
             yield return new WaitForSeconds(secondsBetweenSpawans);
          //   print("spawining");
 
